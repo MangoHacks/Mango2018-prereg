@@ -9,5 +9,5 @@ What is done
 - [x] Schemxy Button Animations
 - [x] Old Site Pushed to 2017.Mangohacks.com
 - [x] Button Resizing
-- [] Forcing CSS on the material Button
+- [x] Forcing CSS on the material Button
 - [x] SVG Mango BG
