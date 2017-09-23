@@ -96,13 +96,13 @@ body{
     color: white !important;
     font-family: FuturaLT-Light;
     position: relative;
-    left: -5em;
+    left: -5.5em;
     box-shadow: none;
 }
 #email{
     border-color: white !important;
     color:white !important;
-    width:22.5em;
+    width:22em;
 }
 button:focus {
     outline: none;
