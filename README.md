@@ -5,9 +5,9 @@ Some basic CSS and some basic HTML
 
 What is done
 
-[x] MailChimp Enabled Button
-[x] Sexy Button Animations
-[x] Old Site Pushed to 2017.Mangohacks.com
-[] Button Resizing
-[] Forcing CSS on the material Button
-[] SVG Mango BG
+- [x] MailChimp Enabled Button
+- [x] Schemxy Button Animations
+- [x] Old Site Pushed to 2017.Mangohacks.com
+- [x] Button Resizing
+- [] Forcing CSS on the material Button
+- [x] SVG Mango BG
