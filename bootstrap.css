@@ -4,6 +4,15 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+@font-face {
+  font-family: 'FuturaLT-Bold';
+  src: url('fonts/Futura-Font/FuturaLT-Bold.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'FuturaLT-Light';
+  src: url('fonts/Futura-Font/FuturaLT-Light.ttf'); /* IE9 Compat Modes */
+}
 @media print {
   *,
   *::before,
@@ -1977,6 +1986,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   line-height: 1.25;
   border-radius: 0.25rem;
   transition: all 0.15s ease-in-out;
+    font-family: 'FuturaLT';
+    src: url('fonts/Futura-Font/FuturaLT.ttf');
 }
 
 .btn:focus, .btn:hover {
