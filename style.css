@@ -92,13 +92,17 @@ body{
     color: white !important;
 }
 #submit-btn{
-    background-color: white !important;
-    color: black !important;
-    font-family:FuturaLT-Light;
+    background-color: transparent !important;
+    color: white !important;
+    font-family: FuturaLT-Light;
+    position: relative;
+    left: -5em;
+    box-shadow: none;
 }
 #email{
     border-color: white !important;
     color:white !important;
+    width:22.5em;
 }
 button:focus {
     outline: none;
@@ -106,6 +110,8 @@ button:focus {
 }
 .input-field {
     margin-top: 0;
+    display: flex !important;
+    margin-left: -0.5em !important;
 }
 
 
