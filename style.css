@@ -12,10 +12,7 @@ body{
     background: -o-linear-gradient(top left,#55df1b,#aeec4d); /*Opera 11.1-12*/
     background: -moz-linear-gradient(top left,#55df1b,#aeec4d); /*Fx 3.6-15*/
     background: linear-gradient(top left, #55df1b, #aeec4d); /*Standard*/
-    overflow:hidden;    
 }
-
-
 .mango{
     position: fixed;
     left: 0px;
@@ -63,7 +60,6 @@ body{
     right: 1%;
     position: fixed;
 }
-
 .pt-5 {
     padding-top: 30px;
     padding-left: 2em !important;
@@ -80,6 +76,16 @@ body{
 #the-form {
     -webkit-animation-duration: .15s;
     animation-duration: .15s;
+}
+#email-label{
+    color: black !important;
+}
+#submit-btn{
+    background-color: black !important;
+    color: white !important;
+}
+#email{
+    border-color: black !important;
 }
 button:focus {
     outline: none;
@@ -107,10 +113,16 @@ button:focus {
         width: 180%;
     }
 }
-
+.form-group{
+    display: flex;
+}
 @media only screen and (max-width: 575px) {
     .mango {
-     
+        position: fixed;
+        left: -6EM;
+        top: 7em;
+        z-index: -1;
+        align-content: center;
         width: 180%;
     }
 
