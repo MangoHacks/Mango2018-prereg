@@ -6,13 +6,15 @@
     font-family: 'FuturaLT-Light';
     src: url('fonts/Futura-Font/FuturaLT-Light.ttf'); /* IE9 Compat Modes */
 }
-.jayz{
+body{
     background: #55df1b; /* Old Browsers */
     background: -webkit-linear-gradient(top left,#55df1b,#aeec4d); /*Safari 5.1-6*/
     background: -o-linear-gradient(top left,#55df1b,#aeec4d); /*Opera 11.1-12*/
     background: -moz-linear-gradient(top left,#55df1b,#aeec4d); /*Fx 3.6-15*/
     background: linear-gradient(top left, #55df1b, #aeec4d); /*Standard*/
+    overflow:hidden;    
 }
+
 
 .mango{
     position: fixed;
@@ -20,6 +22,7 @@
     top: 0px;
     z-index: -1;
     align-content: center;
+    width:-webkit-fill-available;
 }
 
 .jayz {
@@ -95,11 +98,31 @@ button:focus {
         font-size:15px; 
     }
     
+    .mango {
+        position: fixed;
+        left: -6em;
+        top: 7em;
+        z-index: -1;
+        align-content: center;
+        width: 180%;
+    }
 }
 
 @media only screen and (max-width: 575px) {
+    .mango {
+     
+        width: 180%;
+    }
 
 }
 @media only screen and (max-width:420){
+    .mango {
+        position: fixed;
+        left: -6EM;
+        top: 7em;
+        z-index: -1;
+        align-content: center;
+        width: 180%;
+    }
     
 }
