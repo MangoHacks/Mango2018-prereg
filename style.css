@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'FuturaLT-Bold';
+    src: url('fonts/Futura-Font/FuturaLT-Bold.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'FuturaLT-Light';
+    src: url('fonts/Futura-Font/FuturaLT-Light.ttf'); /* IE9 Compat Modes */
+}
+.jayz{
+    background: #55df1b; /* Old Browsers */
+    background: -webkit-linear-gradient(top left,#55df1b,#aeec4d); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top left,#55df1b,#aeec4d); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top left,#55df1b,#aeec4d); /*Fx 3.6-15*/
+    background: linear-gradient(top left, #55df1b, #aeec4d); /*Standard*/
+}
+
+.jayz {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.content{
+    margin-top: 10%;
+}
+.mango-logo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    display: block;
+    height: 250px;
+}
+.title{
+    color: #292929;
+    font-family: FuturaLT-Bold;
+    font-size: 60px;
+    display: flex;
+    padding-left: 2em;
+
+}
+.info{
+    font-size: 25px;
+    color: #272727;
+    font-family: FuturaLT-Light;
+    padding-top: 0.5em;
+    padding-left: 4.75em;
+}
+.mlh-logo{
+    top:0em;
+    height:23%;
+    right: 1%;
+    position: fixed;
+}
+
+.pt-5 {
+    padding-top: 30px;
+    margin-left: 2em;
+}
+.button {
+    padding: 8px 50px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background: transparent;
+    text-decoration: none;
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+}
+#the-form {
+    -webkit-animation-duration: .15s;
+    animation-duration: .15s;
+}
+button:focus {
+    outline: none;
+    background-color: transparent;
+}
+.input-field {
+    margin-top: 0;
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 768px) {
+    .mango-logo {
+        margin-top: 9em;
+        height: 200px;
+    }
+    .title{
+        font-size:40px;
+    }
+    .info{
+        font-size:30px;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+    body{
+        overflow: hidden;
+    }
+    .mango-logo{
+        height: 100px; 
+    }
+    .title{
+        font-size:30px;
+        padding-right: 0.5em;
+    }
+    .info{
+        font-size:12px;
+    }
+
+    
+
+}
