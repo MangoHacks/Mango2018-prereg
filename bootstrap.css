@@ -617,6 +617,9 @@ pre code {
   .container {
     max-width: 540px;
   }
+  .pt-5{
+    padding-left: 5em !important;
+  }
 }
 
 @media (max-width: 614px) {
@@ -626,16 +629,14 @@ pre code {
    .pt-5{
     padding-left:4.7em !important;
   }
-  /*
-  .title{
-    padding-left: 3.5em; 
-  }*/
 }
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
-  
+  .pt-5{
+    padding-left: 8em !important;
+  }
 }
 
 @media (min-width: 992px) {

@@ -83,6 +83,7 @@ body{
 #submit-btn{
     background-color: black !important;
     color: white !important;
+    font-family:FuturaLT-Light;
 }
 #email{
     border-color: black !important;
@@ -95,6 +96,7 @@ button:focus {
     margin-top: 0;
 }
 
+
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 768px) {
     .title{
@@ -103,7 +105,6 @@ button:focus {
     .info{
         font-size:15px; 
     }
-    
     .mango {
         position: fixed;
         left: -6em;
