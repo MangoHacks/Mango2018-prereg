@@ -7,19 +7,27 @@
     src: url('fonts/Futura-Font/FuturaLT-Light.ttf'); /* IE9 Compat Modes */
 }
 body{
-    background: #55df1b; /* Old Browsers */
-    background: -webkit-linear-gradient(top left,#55df1b,#aeec4d); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top left,#55df1b,#aeec4d); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top left,#55df1b,#aeec4d); /*Fx 3.6-15*/
-    background: linear-gradient(top left, #55df1b, #aeec4d); /*Standard*/
+    background: linear-gradient(239deg, #f7008c, #1900df);
+    background: -webkit-linear-gradient(239deg, #f7008c, #1900df); /*Safari 5.1-6*/
+    background: -o-linear-gradient(239deg, #f7008c, #1900df); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(239deg, #f7008c, #1900df); /*Fx 3.6-15*/
 }
 .mango{
-    position: fixed;
+    /* position: fixed;
     left: 0px;
     top: 0px;
     z-index: -1;
     align-content: center;
-    width:-webkit-fill-available;
+    width:-webkit-fill-available; */
+
+    /* Red Mango Version */
+        position: fixed;
+        left: -22em;
+        bottom: -6em;
+        z-index: -1;
+        align-content: center;
+        width: 190em;
+    
 }
 
 .jayz {
@@ -40,7 +48,8 @@ body{
     height: 250px;
 }
 .title{
-    color: #292929;
+    color:white;
+    /* color: #292929;  */
     font-family: FuturaLT-Bold;
     font-size: 60px;
     display: flex;
@@ -49,7 +58,8 @@ body{
 }
 .info{
     font-size: 25px;
-    color: #272727;
+    /* color: #272727; */
+    color:white;    
     font-family: FuturaLT-Light;
     padding-top: 0.5em;
     padding-left: 4.75em;
@@ -65,8 +75,9 @@ body{
     padding-left: 2em !important;
 }
 .button {
+    color:white;
     padding: 8px 50px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 100px;
     background: transparent;
     text-decoration: none;
@@ -78,15 +89,16 @@ body{
     animation-duration: .15s;
 }
 #email-label{
-    color: black !important;
+    color: white !important;
 }
 #submit-btn{
-    background-color: black !important;
-    color: white !important;
+    background-color: white !important;
+    color: black !important;
     font-family:FuturaLT-Light;
 }
 #email{
-    border-color: black !important;
+    border-color: white !important;
+    color:white !important;
 }
 button:focus {
     outline: none;
@@ -106,36 +118,36 @@ button:focus {
         font-size:15px; 
     }
     .mango {
-        position: fixed;
+        /* position: fixed;
         left: -6em;
         top: 7em;
         z-index: -1;
         align-content: center;
-        width: 180%;
+        width: 180%; */
     }
 }
 .form-group{
     display: flex;
 }
 @media only screen and (max-width: 575px) {
-    .mango {
+    /* .mango {
         position: fixed;
         left: -6EM;
         top: 7em;
         z-index: -1;
         align-content: center;
         width: 180%;
-    }
+    } */
 
 }
 @media only screen and (max-width:420){
-    .mango {
+    /* .mango {
         position: fixed;
         left: -6EM;
         top: 7em;
         z-index: -1;
         align-content: center;
         width: 180%;
-    }
+    } */
     
 }
