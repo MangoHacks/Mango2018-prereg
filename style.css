@@ -7,38 +7,28 @@
     src: url('fonts/Futura-Font/FuturaLT-Light.ttf'); /* IE9 Compat Modes */
 }
 body{
-    background: linear-gradient(239deg, #f7008c, #1900df);
-    background: -webkit-linear-gradient(239deg, #f7008c, #1900df); /*Safari 5.1-6*/
-    background: -o-linear-gradient(239deg, #f7008c, #1900df); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(239deg, #f7008c, #1900df); /*Fx 3.6-15*/
+    background: -webkit-linear-gradient(239deg  , #f7008c , #1900df); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(239deg, #f7008c, #1900df); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to left, #f7008c, #1900df); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(239deg, #f7008c , #1900df); /* Standard syntax (must be last) */
 }
 .mango{
-    /* position: fixed;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-    align-content: center;
-    width:-webkit-fill-available; */
-
-    /* Red Mango Version */
         position: fixed;
         left: -22em;
         bottom: -6em;
         z-index: -1;
         align-content: center;
-        width: 190em;
-    
+        width: 190em;   
+        overflow: hidden;
 }
-
 .jayz {
-    height: -webkit-fill-available;
     width: -webkit-fill-available;
-    display: flex;
     align-items: center;
 }
 .content{
-    margin-top: 10%;
+    margin-top: 20%;
     z-index: 1;
+    padding-bottom: 46vh;
 }
 .mango-logo{
     margin-left: auto;
@@ -49,16 +39,13 @@ body{
 }
 .title{
     color:white;
-    /* color: #292929;  */
     font-family: FuturaLT-Bold;
     font-size: 60px;
-    display: flex;
    padding-left:2em; 
 
 }
 .info{
     font-size: 25px;
-    /* color: #272727; */
     color:white;    
     font-family: FuturaLT-Light;
     padding-top: 0.5em;
@@ -105,17 +92,13 @@ body{
     width:22em;
 }
 button:focus {
-    outline: none;
+    outline: 0;
     background-color: transparent;
 }
 .input-field {
     margin-top: 0;
-    display: flex !important;
     margin-left: -0.5em !important;
 }
-
-
-/* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 768px) {
     .title{
         font-size: 35px !important;
@@ -123,37 +106,15 @@ button:focus {
     .info{
         font-size:15px; 
     }
-    .mango {
-        /* position: fixed;
-        left: -6em;
-        top: 7em;
-        z-index: -1;
-        align-content: center;
-        width: 180%; */
-    }
 }
 .form-group{
-    display: flex;
 }
 @media only screen and (max-width: 575px) {
-    /* .mango {
-        position: fixed;
-        left: -6EM;
-        top: 7em;
-        z-index: -1;
-        align-content: center;
-        width: 180%;
-    } */
-
-}
-@media only screen and (max-width:420){
-    /* .mango {
-        position: fixed;
-        left: -6EM;
-        top: 7em;
-        z-index: -1;
-        align-content: center;
-        width: 180%;
-    } */
-    
+    .content{
+        margin-top: 50%;
+        margin-left: -7%;
+    }
+    #email{
+        width:17em;
+    }
 }
